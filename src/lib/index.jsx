@@ -39,6 +39,8 @@ const MobileScrollToTopButton = ScrollToTopButton.extend`
   ...props.style;
 `;
 
+const UnstyledScrollToTopButton = ScrollToTopButton.extend;
+
 class ScrollTop extends Component {
   constructor(props) {
     super(props);
